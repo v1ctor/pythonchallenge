@@ -13,9 +13,9 @@ px = i.load()
 
 c = 0
 k = 0 
-m = 99
+m = 100
 l = 0
-n = 99
+n = 100
 while k < m and l < n:
 
     for i in range(l, n):
