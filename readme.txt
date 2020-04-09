@@ -8,6 +8,7 @@ Password: file
 1: http://www.pythonchallenge.com/pc/def/ocr.html
 2: http://www.pythonchallenge.com/pc/def/equality.html
 3: http://www.pythonchallenge.com/pc/def/linkedlist.php
+4: http://www.pythonchallenge.com/pc/def/peak.html
 
 11: http://www.pythonchallenge.com/pc/return/evil.html
 12: http://www.pythonchallenge.com/pc/return/disproportional.html
