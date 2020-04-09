@@ -1,7 +1,7 @@
 import requests
 import re
 import bz2
-from urllib.parse import unquote_to_bytes
+from urllib.parse import unquote_to_bytes, quote_plus
 from xmlrpc.client import ServerProxy
 
 
@@ -35,6 +35,12 @@ print(bz2.decompress(unquote_to_bytes(r.replace("+", " "))))
 conn = ServerProxy("http://www.pythonchallenge.com/pc/phonebook.php")
 
 print(conn.phone("Leopold"))
+
+url = "http://www.pythonchallenge.com/pc/stuff/violin.php"
+msg = "the flowers are on their way"
+req = requests.get(url, headers = { "Cookie": "info=" + quote_plus(msg)})
+
+print(req.text)
 
 
 # solve(first)
