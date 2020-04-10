@@ -22,3 +22,4 @@ Password: file
 15: http://www.pythonchallenge.com/pc/return/mozart.html
 16: http://www.pythonchallenge.com/pc/return/romance.html
 17: http://www.pythonchallenge.com/pc/return/balloons.html
+18: http://www.pythonchallenge.com/pc/hex/bin.html
